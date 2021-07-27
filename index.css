@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', arial;
+  margin: 0 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin: 0 40px;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+header > a {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.social-media-logo {
+  height: 30px;
+  width: 30px;
+}
+
+/* HERO */
+
+.hero-details {
+  display: flex;
+  width: fit-content;
+  margin: 40px auto;
+}
+
+.hero-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-details-info-text > h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.hero-details-info-text > p {
+  margin-top: 5px;
+}
+
+.hero-details-info-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#button-resume {
+  width: 180px;
+  height: 50px;
+  background: black;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+#button-projects {
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
